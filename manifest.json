@@ -1,8 +1,34 @@
 {
-  "name": "挑戰吧",
+  "name": "挑戰吧 - 超難數獨",
   "short_name": "挑戰吧",
+  "description": "1000關超難數獨挑戰，支援筆記、顏色標記、淺藍深藍主題",
+  "dir": "ltr",
+  "lang": "zh-Hant",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#E8F0FE",
   "theme_color": "#3A6EA5",
-  "icons": [{"src": "icon.png", "sizes": "512x512", "type": "image/png"}]
+  "start_url": "./index.html",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "開始挑戰",
+      "url": "./index.html",
+      "description": "直接開始新挑戰"
+    }
+  ]
 }
