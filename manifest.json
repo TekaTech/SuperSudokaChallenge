@@ -1,0 +1,8 @@
+{
+  "name": "挑戰吧",
+  "short_name": "挑戰吧",
+  "display": "standalone",
+  "background_color": "#E8F0FE",
+  "theme_color": "#3A6EA5",
+  "icons": [{"src": "icon.png", "sizes": "512x512", "type": "image/png"}]
+}
